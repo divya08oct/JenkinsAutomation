@@ -18,7 +18,7 @@ public class Automation {
 		//it will open the goggle page
 		  driver.get("http://google.in"); 
 		  //we expect the title “Google “ should be present 
-		  String Expectedtitle = "Google1";
+		  String Expectedtitle = "Google";
 		  //it will fetch the actual title 
 		  String Actualtitle = driver.getTitle();
 		  System.out.println("Before Assetion " + Expectedtitle + Actualtitle);
